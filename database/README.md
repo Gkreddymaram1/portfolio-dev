@@ -1,12 +1,6 @@
-# Portfolio
-This project is intended to develop Portfolio app to show case my skills.
 
-# Tech Stack
-Front End: HTML, CSS, Javacript, ReactJS
-
-Back End: NodeJS, ExpressJS
-
-Database: MongoDB
+# Title
+This project is intended to setup MongoDB database.
 
 # MongoDB Setup
 * MongoDB Server and MongoDB Client Setup and set in system environment variable
@@ -56,4 +50,3 @@ db.skills.updateOne({ name: 'mongodb' }, { $set: { name: 'mysql' } }
 db.skills.deleteOne({ stream: 'database' })
 
 ```
-
